@@ -1,0 +1,55 @@
+.wrapper {
+  width: 100%;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.top-card {
+  overflow: hidden;
+
+  margin-bottom: 8px;
+  max-height: 150px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.content {
+  padding: 5px 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.8rem;
+
+  color: aqua;
+}
+
+.btn-buy {
+  width: 100%;
+}

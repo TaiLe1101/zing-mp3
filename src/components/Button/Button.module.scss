@@ -1,0 +1,29 @@
+.btn {
+  outline: none;
+
+  font-weight: 700;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 10px 20px;
+
+  background-color: aqua;
+  color: white;
+
+  transition: all 0.2s linear;
+
+  &:active {
+    background-color: aquamarine;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: gray;
+
+    cursor: default;
+  }
+}
