@@ -10,6 +10,8 @@ export type FormControls = {
   type: string;
   label: string;
   placeholder: string;
+  value: string;
+  onChange: any;
 };
 
 export type CardProducts = {

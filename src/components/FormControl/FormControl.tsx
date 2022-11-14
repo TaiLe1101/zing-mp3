@@ -4,13 +4,13 @@ import styles from './FormControl.module.scss';
 
 const cx = classNames.bind(styles);
 
-function FormControl({ id, placeholder, type, label }: FormControls) {
+function FormControl({ id, placeholder, type, label, value, onChange }: FormControls) {
   return (
     <div className={cx('wrapper')}>
       <label htmlFor={id} className={cx('label')}>
         {label}
       </label>
-      <input id={id} type={type} className={cx('input')} placeholder={placeholder} />
+      <input value={value} id={id} type={type} className={cx('input')} placeholder={placeholder} onChange={onChange} />
     </div>
   );
 }
